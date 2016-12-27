@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link href="css/style.css" rel="stylesheet" />
+    
+    <script src="js/myscript.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    
+    <div class="main">
+   <h1>Calculator</h1>
+   
+   
+   <form class="forms" name="cform">
+       
+   <div class="mainscreen">
+       
+       <input type="text" name="screen" id="typescreen">
+       <p id="solscreen"></p>
+       
+   </div>
+   
+   <div class="btns">
+       
+      <div class="one"> 
+          <ul>
+   <li><input onclick="myfunction(value)" type="button" class="digit" name="btn7" value="7"></li>
+   <li><input onclick="myfunction(value)" type="button" class="digit" name="btn8" value="8"></li>
+   <li><input onclick="myfunction(value)" type="button" class="digit" name="btn9" value="9"></li>
+          </ul>
+      </div>
+      
+      <div class="one">
+          <ul>
+  <li><input onclick="myfunction(value)" type="button" class="digit" name="btn4" value="4"></li>
+  <li><input onclick="myfunction(value)" type="button" class="digit" name="btn5" value="5"></li>
+  <li><input onclick="myfunction(value)" type="button" class="digit" name="btn6" value="6"></li>
+          </ul>
+      </div>
+      
+      <div class="one">
+          <ul>
+  <li><input onclick="myfunction(value)" type="button" class="digit" name="btn1" value="1"></li>
+  <li><input onclick="myfunction(value)" type="button" class="digit" name="btn2" value="2"></li>
+  <li><input onclick="myfunction(value)" type="button" class="digit" name="btn3" value="3"></li>
+          </ul>
+      </div>
+      
+      <div class="one">
+          <ul>
+  <li><input onclick="myfunction(value)" type="button" class="digit" name="btn0" value="0"></li>
+  <li><input onclick="reset()" type="button" class="res" name="clear" value="C"></li>
+  <li><input onclick="total()" type="button" id="equals" class="result" name="result" value="="></li>
+          </ul>
+      </div>
+      
+      <div id="secone" class="one">
+          <ul>
+  <li><input onclick="myfunction(value)" type="button" class="opr" name="add" value="+"></li>
+  <li><input onclick="myfunction(value)" type="button" class="opr" name="subs" value="-"></li>
+  <li><input onclick="myfunction(value)" type="button" class="opr" name="mult" value="*"></li>
+  <li><input onclick="myfunction(value)" type="button" class="opr" name="divide" value="/"></li>
+  <li><input onclick="myfunction(value)" type="button" class="rmdr" name="ramainder" value="%"></li>
+          </ul>
+      </div>
+  
+   <div id="secone" class="one">
+       <ul>
+  <li><input onclick="myfunction(value)" type="button" class="sci" name="sin" value="Sin"></li>
+  <li><input onclick="myfunction(value)" type="button" class="cos" name="cos" value="Cos"></li>
+  <li><input onclick="myfunction(value)" type="button" class="tan" name="tan" value="Tan"></li>
+  <li><input onclick="myfunction(value)" type="button" class="brkt" name="cot" value="("></li>
+  <li><input onclick="myfunction(value)" type="button" class="brkt" name="cot" value=")"></li>
+       </ul>
+   </div>
+   
+   </form>
+   </div>
+   
+   
+   <div class="clear"></div>
+    </div>
+     
+     
+</body>
+</html>

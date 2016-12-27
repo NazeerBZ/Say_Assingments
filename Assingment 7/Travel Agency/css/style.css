@@ -1,0 +1,380 @@
+.main{
+    
+    height: 100%;
+    width: 800px;
+    background-color: #fff;
+    margin: 0px auto;
+    border: 5px solid black;
+    padding: 13px;
+}
+
+.content{
+    
+    width: 560px;
+    height: 100%;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+.logo{
+    
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.menu{
+    
+    clear:both; 
+    width: 520px;
+    border-top: 2px solid black; 
+    border-bottom: 1px solid black; 
+   padding-top: 12px;
+   padding-bottom: 12px;
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+  word-spacing: 33px;
+  background-color:rgba(248, 244, 0, 0.74);
+}
+
+.menu li{
+    display:inline;
+}
+
+.detail{
+  padding-top: 12px;  
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.detail:hover{
+    
+    background-color: palegreen;
+}
+
+.navi{
+    
+    text-decoration: none;
+    color: darkorange; 
+}
+
+.para{
+    font-family:  raleway !important;
+    text-align:center;
+    margin-top: 25px;
+   color: #6B6B6B;
+}
+
+.qoute{
+    
+    border: 2px solid #6B6B6B;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.values{
+  color: seagreen;
+    text-align:center;
+}
+
+.boxl{
+    
+    width: 260px;
+    height: 100%px;
+    float: left;
+}
+
+.boxr{
+    width: 260px;
+     height: 100%;
+    float: right;
+    
+}
+
+.china{
+    width:260px;
+    height: 173px;
+    background-image: url("../images/china.jpg");
+    background-size: cover; 
+   
+}
+
+.show{
+    float: right;
+    visibility: hidden;
+}
+
+.china:hover .show{
+    visibility: visible;
+}
+
+
+.tourdetail{
+    width:260px;
+   color:#6B6B6B;
+}
+
+.tourdetail b{
+    color: black;
+}
+
+.maldives{
+    
+    width:260px;
+    height: 173px;
+    background-image: url("../images/maldives.jpg");
+    background-size: cover;
+    
+}
+
+.maldives:hover .show{
+    visibility: visible;
+}
+
+.pkghead{
+    
+    width: 260px;
+}
+
+
+.singapore{
+    
+    width:260px;
+    height: 173px;
+    background-image: url("../images/singapore.jpg");
+    background-size: cover;
+}
+
+.singapore:hover .show{
+    visibility: visible;
+}
+
+.thailand{
+    
+    width:260px;
+    height: 173px;
+    background-image: url("../images/thailand.jpg");
+    background-size: cover;
+   
+}
+
+.thailand:hover .show{
+    visibility: visible;
+}
+
+
+.clr{
+    clear:both;
+}
+
+.vision{
+    width: 260px;
+    height: 183px;
+    float: left;
+    margin-top: -5px;
+    border: 2px solid transparent;
+       padding: 3px;
+}
+
+.vision:hover{
+    box-shadow: 2px 2px 5px black;
+    border-top: 2px solid darkorange;
+     transform: scale(1.1);
+}
+
+.mission{
+    width: 260px;
+    height: 183px;
+    float: right;
+     margin-top: -5px;
+     border: 2px solid transparent;
+     padding: 3px;
+}
+
+.mission:hover{
+    
+     box-shadow: 2px 2px 5px black;
+     border-top: 2px solid limegreen;
+     transform: scale(1.1);
+}
+
+.vm{
+    
+    padding: 0px;
+    margin: 0px;
+    color:#6B6B6B;
+}
+
+.mention{
+    
+    font-size: 17px;
+   color:black;
+    margin-left: 60px;
+    text-decoration: underline;
+}
+
+.q{
+    color:#666666;
+}
+
+.plane{
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.royalm{
+    
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.rail{
+    
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.g5{
+     margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.currency{
+    
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.offers li{
+    color: #666666;
+}
+
+.phela{
+      color: rgb(255, 102, 0);
+}
+
+.offers{
+    list-style-image: url("../images/bullet.png");
+}
+
+.contactform{
+    
+    padding: 2px;
+    width: 560px; 
+    background-color: #D3D3D3;
+    border-radius: 4px; 
+    box-shadow: 2px 2px 5px black;
+}
+
+.cf{
+
+margin-left: 7px;
+}
+
+.inquiry{
+    
+    color: rgb(255, 102, 0); 
+}
+
+.inputarea{
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid darkgrey;
+}
+
+#gap{
+    margin-left: 10px
+}
+
+.sendmsg{
+    padding: 6px;
+    color: rgb(255, 102, 0); 
+    font-weight: bold;
+    background-color: rgba(248, 244, 0, 0.74);
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px black;
+    margin-bottom: 8px;
+}
+
+.first{
+    width: 260px;
+    float:left;
+}
+
+.second{
+    width: 260px;
+    float: right;
+}
+
+.ticketing{
+    width: 260px;
+}
+
+.tours{
+    margin-top: 30px;
+    width: 260px;
+}
+
+.domestic{
+    
+    width: 260px;
+}
+
+.umrah{
+    margin-top: 30px;
+    width: 260px;
+}
+
+.mailing{
+    
+    text-decoration: none;
+    color: #666666;
+}
+
+.tic{
+    
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+#unknown{
+    padding: 0px;
+    margin: 0px;
+    color: #666666;
+    display:inline;
+}
+
+.ep{
+    
+    margin-top:30px;
+    width: 555px;
+    height: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

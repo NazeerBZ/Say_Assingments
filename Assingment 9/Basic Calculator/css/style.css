@@ -1,0 +1,61 @@
+
+body{
+    
+    background-color: palegoldenrod;
+    padding-top: 50px;
+}
+
+.main{
+    
+    margin: 0px auto;
+    width: 400px;
+}
+
+.box1{
+    
+    float: left;
+}
+
+.box2{
+    
+    float: right;
+}
+
+.clear{
+    
+    clear: both;
+}
+
+h1{    
+  text-align: center;
+  color: steelblue;
+  text-transform: uppercase;
+}
+
+p{    
+  text-align: center;
+}
+
+.main button{
+    
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+
+.btns{
+    
+    margin: 0px auto;
+    width:372px;
+}
+
+#ans{
+    
+    background-color: white;
+    height: 40px;
+    padding-top: 20px;
+    border: 1px solid lightslategray;
+}
+
+
+
+

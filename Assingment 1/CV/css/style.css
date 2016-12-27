@@ -1,0 +1,197 @@
+body{
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    
+    margin: 0px auto;
+    width: 1150px;
+    
+}
+
+.header{
+    
+    height: 50px;
+    background-image: url("../images/capture.jpg");
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.footer{
+    
+    height: 50px;
+    background-image: url("../images/capture.jpg");
+    clear: both;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.left{
+    
+    float:left;
+    width: 350px;
+    height: 1016px;
+    margin-top: 40px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.move{
+   
+    width: 350px;
+    position: fixed;
+}
+.profile{
+    
+    padding-bottom: 27px;
+}
+
+.pic{
+    margin-left: 180px;
+}
+
+.maininfo{
+    
+    padding: 0px;
+    margin: 0px;
+    padding-left:21px;
+    color: #696969;
+    text-align: left;
+}
+
+.right{
+   
+    margin-top: 40px;
+    background-color: #fff; 
+    width: 796px;
+    float: right;
+    margin-bottom: 40px;
+    border-left: 4px dotted #1C5A26;
+}
+
+.name{
+    
+    padding-left: 20px;
+    line-height: 37px;
+    background-color: #fff;
+    
+}
+
+.name h1{
+    
+    font-family: philosopher;
+    color: #1C5A26;
+    margin: 0px;
+    font-size: 42px;
+}
+
+.name p{
+    
+    font-family: philosopher;
+    color: #1C5A26;
+    margin: 0px;
+    font-size: 21px;
+    padding-left: 2px;
+    text-align: left;
+}
+
+
+.about{
+    
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.about h2{
+    
+     font-family: philosopher;
+    color: #1C5A26;
+    margin: 0px;
+}
+
+.about p {
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: #696969;
+    
+}
+
+.education{
+    
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.education h2{
+    
+    font-family: philosopher;
+    color: #1C5A26;
+    margin: 0px;
+}
+
+.education ul{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.education ul li{
+    
+    margin: 10px 0px;
+}
+
+.what{
+    
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.where{
+    
+    color: #696969;
+}
+
+.certificate{
+    
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+
+.certificate h2{
+    
+    font-family: philosopher;
+    color: #1C5A26;
+    margin: 0px;
+}
+
+.IA{
+    
+    padding-left: 20px;
+    margin-top: 25px; 
+}
+
+.IA h2{
+    
+   font-family: philosopher;
+    color: #1C5A26;
+    margin: 0px; 
+}
+
+.IA ul{
+    
+   padding: 0px;
+   margin: 0px;
+   margin-top: 10px; 
+   list-style: inside;
+   line-height: 20px;
+   color: #696969;
+}

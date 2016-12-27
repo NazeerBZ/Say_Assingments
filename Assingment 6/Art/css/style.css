@@ -1,0 +1,139 @@
+
+body{
+    
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.middle{
+    
+    width: 1046px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 110px;
+    border-top-right-radius: 50px 165px;
+    border-top-left-radius: 165px 50px;
+    box-shadow: 3px 3px 10px cyan;
+    
+}
+
+.city{
+    
+    width: 900px;
+    height: 300px;
+    margin-left: 75px;
+    
+}
+
+.pak{
+    
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-left: 74px;
+    padding-top: 23px;
+    color: deeppink;
+    width: 270px;
+}
+
+.five{
+    
+    width: 21px;
+    height: 20px;
+    
+}
+
+.five:hover{
+    
+   transform: scale(2);
+}
+
+.link{
+    
+    width:200px;
+    height: 45px;
+    float: right;
+    margin-right: 120px;
+    margin-top: -47px;
+}
+
+.link li{
+    
+    display: inline;
+}
+
+.fame{
+    
+    font-size: 25px;
+    color: deeppink;
+    font-weight: bold;
+    margin-left: 74px;
+    width: 902px;
+    border-bottom: 1px dashed deeppink;
+    margin-bottom: 0px;
+    margin-top:20px;
+}
+
+
+.backgallery1{
+    width: 302px;
+    background-image: url("../images/canvas.jpg");
+  float:left;
+  margin-left: 154px;
+}
+
+.canvas{
+    
+    width: 290px;
+    height: 183px;
+    margin-left:5px;
+    border: 1px inset #fff;
+    box-shadow: 2px 2px 9px cyan;
+}
+
+.cap{
+    
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.head{
+    
+    font-size:19px;
+}
+
+
+#bgl1:hover #cp1{
+    display: block;
+}
+
+.backgallery2{
+    width: 302px;
+    background-image: url("../images/ocean.jpg");
+     margin: 0px;
+   padding: 0px;
+   float: right;
+   margin-right: 154px;
+}
+
+.ocean{
+    
+    width: 290px;
+    height: 183px;
+    margin-left:5px;
+    border: 1px inset #fff;
+    box-shadow: 2px 2px 9px cyan;
+}
+
+#bgl2:hover #cp2{
+    display: block;
+}
+
+
+.clear{
+    
+    clear: both;
+}

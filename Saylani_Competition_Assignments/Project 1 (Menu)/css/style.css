@@ -1,0 +1,50 @@
+
+.main{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+
+.line0{
+
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.line1{
+
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.line2{
+
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.line3{
+
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.line4{
+
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+

@@ -1,0 +1,8 @@
+{
+  "scripts":{
+    "build": "babel js -d jsx --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0"
+  }
+}

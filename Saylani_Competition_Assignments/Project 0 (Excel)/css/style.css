@@ -1,0 +1,56 @@
+
+.main{
+  background-image: url("../image/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 0px ;
+  margin: 0px;
+
+}
+
+html {
+  background: white;
+  font: 16px Arial;
+}
+
+input {
+  font: 16px Arial;
+}
+
+td {
+  border-top: 1px solid green;
+  cursor: cell;
+  padding: 5px;
+}
+
+th {
+  cursor: pointer;
+  padding: 5px;
+}
+
+table {
+  border: 1px solid green;
+  margin: 20px;
+}
+
+.toolbar {
+  margin-left: 20px;
+}
+
+.toolbar a, .toolbar button { /* thanks css3buttongenerator.com! */
+  background: green;
+  background-image: green;  
+  box-shadow: 0px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 0;
+  margin-right: 5px;
+}
+
+.toolbar a:hover, .toolbar button:hover {
+  background: #094e0e;
+  background-image: #094e0e;
+  text-decoration: none;
+}
